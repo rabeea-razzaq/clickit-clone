@@ -1,0 +1,105 @@
+*,
+ *::after,
+ *::before {
+     padding: 0;
+     margin: 0;
+     box-sizing: inherit;
+     text-decoration: none; 
+ }
+ body{
+     box-sizing: border-box;
+     background-color: rgb(221, 213, 204);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ }
+/*
+ *{
+     margin: 0 !important;
+     box-sizing: border-box;
+ }
+ */
+ .wrapper{
+     overflow: hidden;
+ }
+ .galleryitem{
+     
+     height: auto;
+     overflow:hidden;
+ }
+ .pic{
+     
+     height: 223px;
+     
+ }
+ .try3{
+     height: 223px !important;
+ }
+ .space{
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .space h1{
+     border-bottom: 3px solid black;
+ }
+ 
+ .priceitem{
+     width: 90% !important;
+
+ }
+ .price{
+     border: dotted rgb(56, 54, 54);
+ }
+
+ .ends{
+     border: 1px dashed grey;
+ }
+ .endsection{
+     height: auto;
+     background-color: rgb(46, 45, 45)
+ }
+ .lists{
+     list-style-type: none;
+ }
+ .back{
+     background-color: rgb(46, 45, 45);
+     border:none;
+ }
+ .foot
+ {
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .style{
+     color: rgb(50, 206, 206);
+ }
+ .img-over{
+     
+     margin-top: -120px;
+     margin-left: 290px;
+     border: 9px solid white;
+ }
+ .not-seen{
+    display: none;
+
+}
+.heading{
+    margin-top: -100px;
+    top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+}
+@media screen and (max-width:760px){
+    .seen{
+        display: none;
+    }
+    .not-seen{
+        display: flex !important;
+    }
+}
+ 
+ 
+
